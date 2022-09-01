@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T04:16:35.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="XTRGAsDMEWLQ0LeBY0YK" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T07:18:44.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wPA2OVVTmOIgFTlTqXZA" version="20.2.7" type="github">
   <diagram id="RLWeEd-BmDuEota597Pf" name="Page-1">
-    <mxGraphModel dx="2498" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2878" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,10 @@
         <mxCell id="Fz_Veij9UOgY_UO4PEYt-50" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="315" y="580" width="570" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Fz_Veij9UOgY_UO4PEYt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.146;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Fz_Veij9UOgY_UO4PEYt-2" target="Fz_Veij9UOgY_UO4PEYt-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fz_Veij9UOgY_UO4PEYt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.146;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Fz_Veij9UOgY_UO4PEYt-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454.8599999999997" y="761.02" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fz_Veij9UOgY_UO4PEYt-2" value="Pool-Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="395" y="800" width="120" height="60" as="geometry" />
@@ -22,23 +24,26 @@
         <mxCell id="Fz_Veij9UOgY_UO4PEYt-3" value="LoadBalancer&lt;br&gt;（force-pool挖矿的接入口）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="900" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fz_Veij9UOgY_UO4PEYt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Fz_Veij9UOgY_UO4PEYt-4" target="Fz_Veij9UOgY_UO4PEYt-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fz_Veij9UOgY_UO4PEYt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Fz_Veij9UOgY_UO4PEYt-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.9999999999995" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fz_Veij9UOgY_UO4PEYt-4" value="Pool-Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fz_Veij9UOgY_UO4PEYt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.854;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Fz_Veij9UOgY_UO4PEYt-5" target="Fz_Veij9UOgY_UO4PEYt-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fz_Veij9UOgY_UO4PEYt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.854;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Fz_Veij9UOgY_UO4PEYt-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745.1399999999999" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fz_Veij9UOgY_UO4PEYt-5" value="Pool-Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="685" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fz_Veij9UOgY_UO4PEYt-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Fz_Veij9UOgY_UO4PEYt-6" target="Fz_Veij9UOgY_UO4PEYt-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fz_Veij9UOgY_UO4PEYt-6" value="缓存层" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="395" y="700" width="410" height="60" as="geometry" />
+        <mxCell id="Fz_Veij9UOgY_UO4PEYt-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="Fz_Veij9UOgY_UO4PEYt-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.9999999999995" y="700" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fz_Veij9UOgY_UO4PEYt-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Fz_Veij9UOgY_UO4PEYt-7" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -129,7 +134,7 @@
             <mxPoint x="400" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nFIdgC4hxz8XK_9Urs1U-1" value="get_blocktemplate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kznn1rZpgDcflCD4geEU-3">
+        <mxCell id="nFIdgC4hxz8XK_9Urs1U-1" value="get_blocktemplate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Kznn1rZpgDcflCD4geEU-3" vertex="1" connectable="0">
           <mxGeometry x="0.0462" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -242,7 +247,7 @@
         <mxCell id="6U_2tO30vnxywSeGrrnx-44" value="Failed" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-800" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nFIdgC4hxz8XK_9Urs1U-2" value="1.所有Yasn向同一个Queue写入BlockTemplate&lt;br&gt;2.PoolServer向同一个Queue写入Block，由Yasn向外广播。&lt;br&gt;【Queue用Redis】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nFIdgC4hxz8XK_9Urs1U-2" value="1.所有Yasn向同一个Queue写入BlockTemplate&lt;br&gt;2.PoolServer向同一个Queue写入Block，由Yasn向外广播。&lt;br&gt;【Queue用Redis】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-75" y="1025" width="330" height="50" as="geometry" />
         </mxCell>
       </root>
